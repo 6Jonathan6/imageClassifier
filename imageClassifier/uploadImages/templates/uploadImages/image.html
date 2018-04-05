@@ -1,0 +1,18 @@
+<div>
+    <img src="{{url}}"></img>
+    
+</div>
+<table style='width=100%'>
+    <tr>
+        <td>Label</td>
+        <td>Confidence</td>
+    </tr>
+    {% for label in labels %}
+    
+        <tr>
+            <td>{{label.Name}}</td>
+            <td>{{label.Confidence}}</td>
+        </tr>
+        
+    {% endfor %}
+</table>
