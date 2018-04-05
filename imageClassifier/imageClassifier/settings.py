@@ -78,10 +78,10 @@ DATABASES = {
     
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'imageClassifier',
-        'USER': 'jony',
-        'PASSWORD': 'Sanpe935814',
-        'HOST': 'imageclassifierdb.cmsrjf692emw.us-east-1.rds.amazonaws.com',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': ',
+        'HOST': '',
         'PORT': '5432',
     }
 }
@@ -125,17 +125,17 @@ USE_TZ = True
 
 
 #Cognito
-POOL_ID = 'us-east-1_vymiqDJTN'
-APP_CLIENT_ID ='67umt67u8qftpnpoeqlibrbcon'
-APP_CLIENT_SECRET = 'gos75tis5kosf92t1ptfbp842r74lkr0aopf2s9tcumcc6vg87q'
-APP_DOMAIN = 'https://imageclassifier.auth.us-east-1.amazoncognito.com'
-AWS_REGION = 'us-east-1'
+POOL_ID = 
+APP_CLIENT_ID =
+APP_CLIENT_SECRET = 
+APP_DOMAIN = 
+AWS_REGION = 
 CALLBACK_URL ='http://localhost:8000/callback/'
 BASE_URL = 'http://localhost:8000'
 
 
 #S3
-PHOTO_BUCKET = 'photo-app-jony'
+PHOTO_BUCKET = 
 
 
 STATIC_URL = '/static/'
